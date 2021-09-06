@@ -1,0 +1,52 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ebebeb;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 5%;
+}
+.titulo {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.campo {
+  background-color: rgb(255, 255, 255);
+  padding: 1.5%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+}
+.perfilUsuario {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+
+.perfilUsuario input {
+  margin-right: 15px;
+}
+.intereses {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+}
+.intereses input {
+  margin-right: 5%;
+}
+.formulario button {
+  margin: 0 40%;
+}
