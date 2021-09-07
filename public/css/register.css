@@ -30,6 +30,9 @@ main {
   border: 1px solid rgb(255, 255, 255);
   border-radius: 5px;
 }
+.campo:hover {
+  border: 1px solid lightgray;
+}
 .perfilUsuario {
   display: flex;
   justify-content: space-around;
@@ -47,6 +50,13 @@ main {
 .intereses input {
   margin-right: 5%;
 }
-.formulario button {
-  margin: 0 40%;
+.boton {
+  padding: 1%;
+  background-color: #1259c3;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  border: none;
+}
+.boton:hover {
+  background-color: #0022aa;
 }

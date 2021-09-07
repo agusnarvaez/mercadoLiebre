@@ -1,0 +1,45 @@
+body {
+  background-color: #ebebeb;
+}
+
+main {
+  width: 90%;
+  margin: auto;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+.campo {
+  background-color: rgb(255, 255, 255);
+  padding: 1.5%;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  width: 50vw;
+}
+.boton {
+  padding: 1%;
+  background-color: #1259c3;
+  color: rgb(255, 255, 255);
+  border-radius: 7px;
+  border: none;
+}
+.boton:hover {
+  background-color: #0022aa;
+}
+.campo:hover {
+  border: 1px solid lightgray;
+}
+
+@media (min-width: 768px) {
+  main {
+    height: 50vh;
+  }
+}
