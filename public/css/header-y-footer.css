@@ -1,3 +1,5 @@
+/* Header */
+
 .main-header {
   font-size: 17px;
   background-color: #eac926;
@@ -98,6 +100,8 @@
   font-size: 17px;
 }
 
+/* Footer */
+
 footer {
   background-color: #ebebeb;
   /*margin-left: -10px;
@@ -170,7 +174,7 @@ footer {
   }
   .main-header-top-bar-main {
     justify-content: space-around;
-    width: 60%;
+    width: 66%;
   }
   .logo {
     width: 30%;
@@ -179,7 +183,7 @@ footer {
     width: 40%;
   }
   .copy-header {
-    width: 40%;
+    width: 34%;
   }
   .sugerencias {
     flex-direction: row;
